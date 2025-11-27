@@ -1,0 +1,17 @@
+.grid-style {
+    background-color: blue;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height:600px;
+    flex-shrink: 0;
+    border: 5px solid black;
+}
