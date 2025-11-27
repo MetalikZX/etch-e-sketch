@@ -18,7 +18,7 @@ for (let i = 0; i < (size * size); i++) {
                     const randomColor = getRandomColor();
                 event.target.style.backgroundColor = randomColor;
             }})
-
+createGrid(16);
 const sizeSlider = document.querySelector('#sizeSlider')
 const sizeText = document.querySelector('#sizeText');
 sizeSlider.addEventListener('input', () => {
